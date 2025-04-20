@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HTML5 Elements Demo</title>
+</head>
+<body>
+
+
+  <header>
+    <h1>Welcome to the HTML5 Demo Page</h1>
+    <p>This page demonstrates various HTML5 elements.</p>
+  </header>
+
+  <section>
+    <h2>Ordered List (Roman Numerals)</h2>
+    <ol type="I">
+      <li>HTML Basics</li>
+      <li>CSS Styling</li>
+      <li>JavaScript</li>
+      <li>Multimedia Elements</li>
+      <li>Forms and Validation</li>
+    </ol>
+  </section>
+
+
+  <section>
+    <h2>External Image from Pexels</h2>
+    <img src="https://images.pexels.com/photos/1103970/pexels-photo-1103970.jpeg" alt="Pexels Landscape" width="600" />
+  </section>
+
+  <section>
+    <h2>Contact List</h2>
+    <table border="1" cellpadding="10">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Address</th>
+          <th>Mobile</th>
+          <th>Email</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Jane Doe</td>
+          <td>123 Main St</td>
+          <td>+254700111222</td>
+          <td>jane@example.com</td>
+        </tr>
+        <tr>
+          <td>John Smith</td>
+          <td>456 Elm Rd</td>
+          <td>+254701234567</td>
+          <td>john@example.com</td>
+        </tr>
+        <tr>
+          <td>Alice Kim</td>
+          <td>789 Pine Ave</td>
+          <td>+254702345678</td>
+          <td>alice@example.com</td>
+        </tr>
+        <tr>
+          <td>Bob Otieno</td>
+          <td>321 Oak Blvd</td>
+          <td>+254703456789</td>
+          <td>bob@example.com</td>
+        </tr>
+        <tr>
+          <td>Faith Wanjiku</td>
+          <td>654 Maple Lane</td>
+          <td>+254704567890</td>
+          <td>faith@example.com</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+
+  <section>
+    <h2>Registration Form</h2>
+    <form action="#" method="post">
+  
+      <label for="name">Full Name:</label><br />
+      <input type="text" id="name" name="name" placeholder="Enter your full name" required /><br /><br />
+
+ 
+      <label for="email">Email:</label><br />
+      <input type="email" id="email" name="email" placeholder="example@domain.com" required /><br /><br />
+
+    
+      <label for="password">Password:</label><br />
+      <input type="password" id="password" name="password" placeholder="Enter a secure password" minlength="6" required /><br /><br />
+
+  
+      <label for="dob">Date of Birth:</label><br />
+      <input type="date" id="dob" name="dob" required /><br /><br />
+
+    
+      <label for="country">Select Country:</label><br />
+      <select id="country" name="country" required>
+        <option value="">--Select--</option>
+        <option value="kenya">Kenya</option>
+        <option value="uganda">Uganda</option>
+        <option value="tanzania">Tanzania</option>
+      </select><br /><br />
+
+     
+      <p>Gender:</p>
+      <input type="radio" id="male" name="gender" value="male" required />
+      <label for="male">Male</label><br />
+      <input type="radio" id="female" name="gender" value="female" />
+      <label for="female">Female</label><br /><br />
+
+    
+      <p>Interests:</p>
+      <input type="checkbox" id="coding" name="interests" value="coding" />
+      <label for="coding">Coding</label><br />
+      <input type="checkbox" id="music" name="interests" value="music" />
+      <label for="music">Music</label><br />
+      <input type="checkbox" id="sports" name="interests" value="sports" />
+      <label for="sports">Sports</label><br /><br />
+
+   
+      <button type="submit">Register</button>
+    </form>
+  </section>
+
+  <section>
+    <h2>Audio and Video Elements</h2>
+
+   
+    <audio controls>
+      <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg" />
+      Your browser does not support the audio element.
+    </audio>
+
+    <br /><br />
+
+  
+    <video width="600" controls>
+      <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 HTML5 Demo Page | All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
